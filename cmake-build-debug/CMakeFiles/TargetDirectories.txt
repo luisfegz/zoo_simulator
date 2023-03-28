@@ -1,0 +1,3 @@
+C:/Users/carlo/OneDrive - PUJ Cali/javeriana/semestre 3/Poo/proyecto/zoo_simulator/cmake-build-debug/CMakeFiles/zoo_simulator.dir
+C:/Users/carlo/OneDrive - PUJ Cali/javeriana/semestre 3/Poo/proyecto/zoo_simulator/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/carlo/OneDrive - PUJ Cali/javeriana/semestre 3/Poo/proyecto/zoo_simulator/cmake-build-debug/CMakeFiles/rebuild_cache.dir

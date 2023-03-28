@@ -1,0 +1,10 @@
+# ninja log v5
+143	2072	7017193955145436	CMakeFiles/zoo_simulator.dir/src/Animal.cpp.obj	ad4e7cdf0592f3b2
+14	2042	7017193955125465	CMakeFiles/zoo_simulator.dir/src/main.cpp.obj	a72f2ccc53fc9852
+944	1268	7015004572015307	zoo_simulator.exe	46390fd554a60d64
+10	1084	7017196468642936	build.ninja	65d94e15e42258b1
+161	2146	7017193956156047	CMakeFiles/zoo_simulator.dir/src/Desert.cpp.obj	48463e24f5523caa
+91	2312	7017193957806194	CMakeFiles/zoo_simulator.dir/src/Habitat.cpp.obj	c5bd248994614925
+6	1326	7017194712785322	CMakeFiles/zoo_simulator.dir/src/Zoo.cpp.obj	34ffc4a7f788f4bb
+7	1363	7017197694686184	CMakeFiles/zoo_simulator.dir/src/Desert.cpp.obj	48463e24f5523caa
+1365	1672	7017197697771553	zoo_simulator.exe	45edc25d8439eef8

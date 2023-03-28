@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "zoo_simulator",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "zoo_simulator::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zoo_simulator-Debug-6f900178ececc8c12bbc.json",
+					"name" : "zoo_simulator",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/carlo/OneDrive - PUJ Cali/javeriana/semestre 3/Poo/proyecto/zoo_simulator/cmake-build-debug",
+		"source" : "C:/Users/carlo/OneDrive - PUJ Cali/javeriana/semestre 3/Poo/proyecto/zoo_simulator"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
