@@ -1,19 +1,21 @@
 //
 // Created by carlo on 28/03/2023.
 //
-
 #ifndef ZOO_SIMULATOR_ZOO_H
 #define ZOO_SIMULATOR_ZOO_H
-#include "Habitat.h"
-#include <vector>
+#include "Animal.h"
 
 
 class Zoo {
 
-private:
-    vector<Habitat> habitats;
+protected:
+
+    vector<Animal*> animales;
 
 public:
-    void add_habitat(Habitat habitat);
+    void agregarAnimal(Animal *animal);
+    void recorrerAnimales();
+    int getCanVec();
+    vector<Animal*> getVector();
 };
 #endif //ZOO_SIMULATOR_ZOO_H

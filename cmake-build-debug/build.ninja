@@ -56,20 +56,6 @@ build CMakeFiles/zoo_simulator.dir/src/Animal.cpp.obj: CXX_COMPILER__zoo_simulat
   OBJECT_DIR = CMakeFiles\zoo_simulator.dir
   OBJECT_FILE_DIR = CMakeFiles\zoo_simulator.dir\src
 
-build CMakeFiles/zoo_simulator.dir/src/Habitat.cpp.obj: CXX_COMPILER__zoo_simulator_Debug C$:/Users/carlo/OneDrive$ -$ PUJ$ Cali/javeriana/semestre$ 3/Poo/proyecto/zoo_simulator/src/Habitat.cpp || cmake_object_order_depends_target_zoo_simulator
-  DEP_FILE = CMakeFiles\zoo_simulator.dir\src\Habitat.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu++14
-  INCLUDES = -I"C:/Users/carlo/OneDrive - PUJ Cali/javeriana/semestre 3/Poo/proyecto/zoo_simulator/src"
-  OBJECT_DIR = CMakeFiles\zoo_simulator.dir
-  OBJECT_FILE_DIR = CMakeFiles\zoo_simulator.dir\src
-
-build CMakeFiles/zoo_simulator.dir/src/Desert.cpp.obj: CXX_COMPILER__zoo_simulator_Debug C$:/Users/carlo/OneDrive$ -$ PUJ$ Cali/javeriana/semestre$ 3/Poo/proyecto/zoo_simulator/src/Desert.cpp || cmake_object_order_depends_target_zoo_simulator
-  DEP_FILE = CMakeFiles\zoo_simulator.dir\src\Desert.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu++14
-  INCLUDES = -I"C:/Users/carlo/OneDrive - PUJ Cali/javeriana/semestre 3/Poo/proyecto/zoo_simulator/src"
-  OBJECT_DIR = CMakeFiles\zoo_simulator.dir
-  OBJECT_FILE_DIR = CMakeFiles\zoo_simulator.dir\src
-
 build CMakeFiles/zoo_simulator.dir/src/Zoo.cpp.obj: CXX_COMPILER__zoo_simulator_Debug C$:/Users/carlo/OneDrive$ -$ PUJ$ Cali/javeriana/semestre$ 3/Poo/proyecto/zoo_simulator/src/Zoo.cpp || cmake_object_order_depends_target_zoo_simulator
   DEP_FILE = CMakeFiles\zoo_simulator.dir\src\Zoo.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++14
@@ -77,8 +63,64 @@ build CMakeFiles/zoo_simulator.dir/src/Zoo.cpp.obj: CXX_COMPILER__zoo_simulator_
   OBJECT_DIR = CMakeFiles\zoo_simulator.dir
   OBJECT_FILE_DIR = CMakeFiles\zoo_simulator.dir\src
 
+build CMakeFiles/zoo_simulator.dir/src/Felinos.cpp.obj: CXX_COMPILER__zoo_simulator_Debug C$:/Users/carlo/OneDrive$ -$ PUJ$ Cali/javeriana/semestre$ 3/Poo/proyecto/zoo_simulator/src/Felinos.cpp || cmake_object_order_depends_target_zoo_simulator
+  DEP_FILE = CMakeFiles\zoo_simulator.dir\src\Felinos.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++14
+  INCLUDES = -I"C:/Users/carlo/OneDrive - PUJ Cali/javeriana/semestre 3/Poo/proyecto/zoo_simulator/src"
+  OBJECT_DIR = CMakeFiles\zoo_simulator.dir
+  OBJECT_FILE_DIR = CMakeFiles\zoo_simulator.dir\src
+
+build CMakeFiles/zoo_simulator.dir/src/Equidos.cpp.obj: CXX_COMPILER__zoo_simulator_Debug C$:/Users/carlo/OneDrive$ -$ PUJ$ Cali/javeriana/semestre$ 3/Poo/proyecto/zoo_simulator/src/Equidos.cpp || cmake_object_order_depends_target_zoo_simulator
+  DEP_FILE = CMakeFiles\zoo_simulator.dir\src\Equidos.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++14
+  INCLUDES = -I"C:/Users/carlo/OneDrive - PUJ Cali/javeriana/semestre 3/Poo/proyecto/zoo_simulator/src"
+  OBJECT_DIR = CMakeFiles\zoo_simulator.dir
+  OBJECT_FILE_DIR = CMakeFiles\zoo_simulator.dir\src
+
+build CMakeFiles/zoo_simulator.dir/src/Bovidos.cpp.obj: CXX_COMPILER__zoo_simulator_Debug C$:/Users/carlo/OneDrive$ -$ PUJ$ Cali/javeriana/semestre$ 3/Poo/proyecto/zoo_simulator/src/Bovidos.cpp || cmake_object_order_depends_target_zoo_simulator
+  DEP_FILE = CMakeFiles\zoo_simulator.dir\src\Bovidos.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++14
+  INCLUDES = -I"C:/Users/carlo/OneDrive - PUJ Cali/javeriana/semestre 3/Poo/proyecto/zoo_simulator/src"
+  OBJECT_DIR = CMakeFiles\zoo_simulator.dir
+  OBJECT_FILE_DIR = CMakeFiles\zoo_simulator.dir\src
+
+build CMakeFiles/zoo_simulator.dir/src/Faisanidos.cpp.obj: CXX_COMPILER__zoo_simulator_Debug C$:/Users/carlo/OneDrive$ -$ PUJ$ Cali/javeriana/semestre$ 3/Poo/proyecto/zoo_simulator/src/Faisanidos.cpp || cmake_object_order_depends_target_zoo_simulator
+  DEP_FILE = CMakeFiles\zoo_simulator.dir\src\Faisanidos.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++14
+  INCLUDES = -I"C:/Users/carlo/OneDrive - PUJ Cali/javeriana/semestre 3/Poo/proyecto/zoo_simulator/src"
+  OBJECT_DIR = CMakeFiles\zoo_simulator.dir
+  OBJECT_FILE_DIR = CMakeFiles\zoo_simulator.dir\src
+
+build CMakeFiles/zoo_simulator.dir/src/Accipitridos.cpp.obj: CXX_COMPILER__zoo_simulator_Debug C$:/Users/carlo/OneDrive$ -$ PUJ$ Cali/javeriana/semestre$ 3/Poo/proyecto/zoo_simulator/src/Accipitridos.cpp || cmake_object_order_depends_target_zoo_simulator
+  DEP_FILE = CMakeFiles\zoo_simulator.dir\src\Accipitridos.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++14
+  INCLUDES = -I"C:/Users/carlo/OneDrive - PUJ Cali/javeriana/semestre 3/Poo/proyecto/zoo_simulator/src"
+  OBJECT_DIR = CMakeFiles\zoo_simulator.dir
+  OBJECT_FILE_DIR = CMakeFiles\zoo_simulator.dir\src
+
+build CMakeFiles/zoo_simulator.dir/src/MamiferosAcua.cpp.obj: CXX_COMPILER__zoo_simulator_Debug C$:/Users/carlo/OneDrive$ -$ PUJ$ Cali/javeriana/semestre$ 3/Poo/proyecto/zoo_simulator/src/MamiferosAcua.cpp || cmake_object_order_depends_target_zoo_simulator
+  DEP_FILE = CMakeFiles\zoo_simulator.dir\src\MamiferosAcua.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++14
+  INCLUDES = -I"C:/Users/carlo/OneDrive - PUJ Cali/javeriana/semestre 3/Poo/proyecto/zoo_simulator/src"
+  OBJECT_DIR = CMakeFiles\zoo_simulator.dir
+  OBJECT_FILE_DIR = CMakeFiles\zoo_simulator.dir\src
+
+build CMakeFiles/zoo_simulator.dir/src/MoluscosAcua.cpp.obj: CXX_COMPILER__zoo_simulator_Debug C$:/Users/carlo/OneDrive$ -$ PUJ$ Cali/javeriana/semestre$ 3/Poo/proyecto/zoo_simulator/src/MoluscosAcua.cpp || cmake_object_order_depends_target_zoo_simulator
+  DEP_FILE = CMakeFiles\zoo_simulator.dir\src\MoluscosAcua.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++14
+  INCLUDES = -I"C:/Users/carlo/OneDrive - PUJ Cali/javeriana/semestre 3/Poo/proyecto/zoo_simulator/src"
+  OBJECT_DIR = CMakeFiles\zoo_simulator.dir
+  OBJECT_FILE_DIR = CMakeFiles\zoo_simulator.dir\src
+
 build CMakeFiles/zoo_simulator.dir/src/main.cpp.obj: CXX_COMPILER__zoo_simulator_Debug C$:/Users/carlo/OneDrive$ -$ PUJ$ Cali/javeriana/semestre$ 3/Poo/proyecto/zoo_simulator/src/main.cpp || cmake_object_order_depends_target_zoo_simulator
   DEP_FILE = CMakeFiles\zoo_simulator.dir\src\main.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++14
+  INCLUDES = -I"C:/Users/carlo/OneDrive - PUJ Cali/javeriana/semestre 3/Poo/proyecto/zoo_simulator/src"
+  OBJECT_DIR = CMakeFiles\zoo_simulator.dir
+  OBJECT_FILE_DIR = CMakeFiles\zoo_simulator.dir\src
+
+build CMakeFiles/zoo_simulator.dir/src/Otaridos.cpp.obj: CXX_COMPILER__zoo_simulator_Debug C$:/Users/carlo/OneDrive$ -$ PUJ$ Cali/javeriana/semestre$ 3/Poo/proyecto/zoo_simulator/src/Otaridos.cpp || cmake_object_order_depends_target_zoo_simulator
+  DEP_FILE = CMakeFiles\zoo_simulator.dir\src\Otaridos.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++14
   INCLUDES = -I"C:/Users/carlo/OneDrive - PUJ Cali/javeriana/semestre 3/Poo/proyecto/zoo_simulator/src"
   OBJECT_DIR = CMakeFiles\zoo_simulator.dir
@@ -92,7 +134,7 @@ build CMakeFiles/zoo_simulator.dir/src/main.cpp.obj: CXX_COMPILER__zoo_simulator
 #############################################
 # Link the executable zoo_simulator.exe
 
-build zoo_simulator.exe: CXX_EXECUTABLE_LINKER__zoo_simulator_Debug CMakeFiles/zoo_simulator.dir/src/Animal.cpp.obj CMakeFiles/zoo_simulator.dir/src/Habitat.cpp.obj CMakeFiles/zoo_simulator.dir/src/Desert.cpp.obj CMakeFiles/zoo_simulator.dir/src/Zoo.cpp.obj CMakeFiles/zoo_simulator.dir/src/main.cpp.obj
+build zoo_simulator.exe: CXX_EXECUTABLE_LINKER__zoo_simulator_Debug CMakeFiles/zoo_simulator.dir/src/Animal.cpp.obj CMakeFiles/zoo_simulator.dir/src/Zoo.cpp.obj CMakeFiles/zoo_simulator.dir/src/Felinos.cpp.obj CMakeFiles/zoo_simulator.dir/src/Equidos.cpp.obj CMakeFiles/zoo_simulator.dir/src/Bovidos.cpp.obj CMakeFiles/zoo_simulator.dir/src/Faisanidos.cpp.obj CMakeFiles/zoo_simulator.dir/src/Accipitridos.cpp.obj CMakeFiles/zoo_simulator.dir/src/MamiferosAcua.cpp.obj CMakeFiles/zoo_simulator.dir/src/MoluscosAcua.cpp.obj CMakeFiles/zoo_simulator.dir/src/main.cpp.obj CMakeFiles/zoo_simulator.dir/src/Otaridos.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\zoo_simulator.dir

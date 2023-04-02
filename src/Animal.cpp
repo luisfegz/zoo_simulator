@@ -5,18 +5,40 @@
 #include "Animal.h"
 
 
-Animal::Animal(string name, string species, string habitat): name_(name), species_(species), habitat_(habitat) {}
+Animal::Animal(string nombre, string familia, string especie, string habitat, string dieta, int edad, int id)
+        : nombre(nombre),familia(familia), especie(especie), habitat(habitat), dieta(dieta), edad(edad), iD(iD){}
 
-void Animal::eat() {
-    cout << name_ << " is eating.\n";
-}
-
-void Animal::sleep() {
-    cout << name_ << " is sleeping.\n";
-}
-
-void Animal::play()
+string Animal::getNombre()
 {
-    cout << name_ << " is playing.\n";
+    return this->nombre;
 }
 
+string Animal::getFamilia()
+{
+    return this->familia;
+}
+
+int Animal::getId()
+{
+    return this->iD;
+}
+
+string Animal::getHabitat()
+{
+    return this->habitat;
+}
+
+int Animal::getEdad()
+{
+    return this->edad;
+}
+
+string Animal::getEspecie()
+{
+    return this->especie;
+}
+
+string Animal::getDieta()
+{
+    return this->dieta;
+}
