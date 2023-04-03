@@ -31,8 +31,8 @@ public:
     int getEdad();
     string getDieta();
     virtual void comer(string alimento) =0;
-    //virtual void dormir(bool durmiendo)=0;
-    //virtual void jugar(bool jugando)=0;
+    virtual void dormir(int dormir)=0;
+    virtual void jugar()=0;
 };
 
 #endif //ZOO_SIMULATOR_ANIMAL_H

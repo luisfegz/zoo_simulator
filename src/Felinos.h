@@ -11,12 +11,14 @@
 class Felinos : public Animal {
 private:
     bool alimentacion;
+    bool durmiendo;
+    bool juego;
 
     public:
         Felinos(string nombre, string familia , string especie, string habitat, string dieta, int edad, int iD);
-        void comer(string alimento);
-        //void dormir(bool durmiendo);
-        //void jugar(bool jugando);
+        void comer(string alimento)override;
+        void dormir(int dormir)override;
+        void jugar()override;
 };
 
 
