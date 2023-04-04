@@ -83,7 +83,7 @@ void agregarAnimal(Zoo *zoologico)
     int edad,identificacion;
     identificacion = zoologico->getCanVec();
     cout <<"----------------------------------------------------- DATOS ANIMAL ---------------------------------------------------"<<endl;
-    cout<<"El zoologico solo puede agregar animales cuyo habitat sea Desertico, Polar, Selvatico u Acuatico"<<endl;
+    cout<<"El zoologico solo puede agregar animales cuyo habitat sea desertico, polar, selvatico u acuatico"<<endl;
     cout<<"Ingrese la familia del animal:\nAccipitridos\nBovidos\nEquidos\nFaisanidos\nFelinos\nMamiferos Acuaticos(MamiferosA)\nMoluscos Acuaticos(MoluscosA)\nOtaridos "<<endl;
     cin>>familia;
 
@@ -145,14 +145,14 @@ void agregarAnimal(Zoo *zoologico)
         Otaridos *pOtarido = new Otaridos(nombre, familia, especie, habitat, dieta , edad, identificacion);
         zoologico->agregarAnimal(pOtarido);
     }
-    menu(zoologico);
+
 }
 
 
 void recorrerAnimales(Zoo *zoologico)
 {
     zoologico->recorrerAnimales();
-    menu(zoologico);
+
 }
 
 void opcionesAnimales(Zoo *zoologico)
@@ -208,7 +208,6 @@ void accionDormir(Zoo *zoologico, Animal *animal)
     cout<<"ingrese la cantidad de horas de suenio que desea que duerma \n"<<endl;
     cin>>hsuenio;
     animal->dormir(hsuenio);
-    menu(zoologico);
 }
 
 void accionComer(Zoo *zoologico, Animal *animal)
@@ -228,8 +227,6 @@ void accionComer(Zoo *zoologico, Animal *animal)
     cout<<"ingrese el alimento que desea darle al animal "<<endl;
     cin>>comida;
     animal->comer(comida);
-    menu(zoologico);
-
 }
 
 
@@ -252,6 +249,4 @@ void accionARealizar(Zoo *zoologico, Animal *animal, string accion)
     {
         animal->jugar();
     }
-
-    menu(zoologico);
 }
