@@ -163,7 +163,6 @@ void opcionesAnimales(Zoo *zoologico)
     cout<<" ------------------------ LISTA ANIMALES --------------------------\n"<<endl;
     int posicion;
     string opciones;
-    int i = 0;
     vector<Animal*>::iterator itvector;
     vector<Animal*> animales = zoologico->getVector();
     cout<<"los animales para realizar acciones son;"<<"\n"<<endl;
