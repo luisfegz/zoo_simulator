@@ -12,13 +12,17 @@ Faisanidos::Faisanidos(string nombre, string familia, string especie, string hab
 
 void Faisanidos::comer(string alimento)
 {
+    // Si el animal no ha comido, indica que el animal se encuentra lleno!
     if (this->alimentacion == false)
     {
+        // Sino se encuentra alimentado se examina el tipo de alimento
         if (alimento == "granos" || alimento == "insectos" || alimento == "carne" || alimento == "semillas" || alimento == "frutas")
         {
             cout<<"el animal "<<getNombre()<<" ha sido alimentado con "<<alimento<<endl;
             this->alimentacion = true;
+            // El animal se encuentra Lleno!
         }else{
+            // Si el alimento no es el adecuado, saldra un mensaje que indicara que no puede ser alimentado por x alimento
             cout<<"lo siento el animal no puede ser alimentado con "<<alimento<<endl;
         }
 
@@ -26,13 +30,15 @@ void Faisanidos::comer(string alimento)
         cout<<"lo siento, no puedes alimentar al animal"<<getNombre()<<"con carne porque este ya ha sido alimentado"<<endl;
     }
 }
-
+//La funcion permite evaluar el estado de recuperacion y horas de sueño del tipo de familia de animal de Zoo
 void Faisanidos::dormir(int dormir)
 {
+    // Evalua si el animal no ha dormido
     if (this->durmiendo == false)
     {
         if (dormir < 8)
         {
+            // Verifica si son horas de descanso insuficiente para el animal
             cout<<"lo siento, la cantidad de horas son insuficientes para la especie "<<getEspecie()<<endl;
         }
 

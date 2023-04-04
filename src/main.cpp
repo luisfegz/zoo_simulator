@@ -22,6 +22,7 @@ void accionDormir(Zoo *zoologico, Animal *animal);
 
 //Funcion principal que arranca el programa
 int main() {
+    //Se crea el contenedor para los animales y arranca el programa
     Zoo *zoologico = new Zoo();
     menu(zoologico);
     return 0;
@@ -77,6 +78,7 @@ void menu(Zoo *zoologico)
     } while (opc != 4);
 }
 
+//Funcion encargada de añadir un nuevo animal con sus atributos y su metodo constructor basandose en su familia
 void agregarAnimal(Zoo *zoologico)
 {
     string nombre,especie,habitat,dieta, familia;
@@ -148,13 +150,14 @@ void agregarAnimal(Zoo *zoologico)
     menu(zoologico);
 }
 
-
+// Recorre los animales agregados al Zoo
 void recorrerAnimales(Zoo *zoologico)
 {
     zoologico->recorrerAnimales();
     menu(zoologico);
 }
 
+// Funcion para listar animales agregados, luego pide un ID sobre el animal el cual desea ordenar acciones
 void opcionesAnimales(Zoo *zoologico)
 {
     cout<<" ------------------------ LISTA ANIMALES --------------------------\n"<<endl;
@@ -173,6 +176,7 @@ void opcionesAnimales(Zoo *zoologico)
 
 }
 
+// Funcion encargada de realizar una busqueda dentro del vector del ID del animal seleccionado
 void buscarIdAnimal(Zoo *zoo,vector<Animal*> animales, int id)
 {
     string accionR;
@@ -188,10 +192,13 @@ void buscarIdAnimal(Zoo *zoo,vector<Animal*> animales, int id)
     cout<<"---------------------- ACCION A REALIZAR --------------------"<<endl;
     cout<<"escribe la accion que deseas realizar: comer, jugar, dormir"<<endl;
     cin>>accionR;
+    //
     accionARealizar(zoo,pAnimal,accionR);
 
 
 }
+
+// Funcion que pide horas de sueño para luego pasarlas a la funcion dormir dentro de la clase animal
 void accionDormir(Zoo *zoologico, Animal *animal)
 {
     int hsuenio;
@@ -211,6 +218,7 @@ void accionDormir(Zoo *zoologico, Animal *animal)
     menu(zoologico);
 }
 
+// Funcion que pide el tipo de alimento para luego pasarlas a la funcion comer dentro de la clase animal
 void accionComer(Zoo *zoologico, Animal *animal)
 {
     string comida;
@@ -232,22 +240,22 @@ void accionComer(Zoo *zoologico, Animal *animal)
 
 }
 
-
+// Funcion encargada de pedir acciones para ejecutarlas sobre los animales.
 void accionARealizar(Zoo *zoologico, Animal *animal, string accion)
 {
-    cout<<"el animal escogido es "<<animal->getEspecie()<< " y su dieta es "<<animal->getDieta()<<endl;
+    cout<<"el animal escogido es "<<animal->getEspecie()<<endl;
     cout<<"la opcion que escogiste fue "<<accion<<endl;
-
+    // Ejecuta accion comer
     if(accion == "comer")
     {
         accionComer(zoologico, animal);
     }
-
+    // Ejecuta accion dormir
     if(accion == "dormir")
     {
         accionDormir(zoologico, animal);
     }
-
+    // Llama al metodo jugar
     if (accion == "jugar")
     {
         animal->jugar();
