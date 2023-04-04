@@ -30,6 +30,7 @@ public:
     string getHabitat();
     int getEdad();
     string getDieta();
+    // Un metodo abstracto que permite que cada familia animal ejecute su determinado metodo comer
     virtual void comer(string alimento) =0;
     virtual void dormir(int dormir)=0;
     virtual void jugar()=0;

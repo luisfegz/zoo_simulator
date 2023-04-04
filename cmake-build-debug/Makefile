@@ -56,10 +56,10 @@ RM = "C:\Program Files\JetBrains\CLion 2022.3.2\bin\cmake\win\x64\bin\cmake.exe"
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\acer\Desktop\git\zoo_simulator\zoo_simulator
+CMAKE_SOURCE_DIR = C:\Users\acer\Desktop\git\zoo_simulator\zoo_simulator\zoo_simulator
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\acer\Desktop\git\zoo_simulator\zoo_simulator\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\acer\Desktop\git\zoo_simulator\zoo_simulator\zoo_simulator\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\acer\Desktop\git\zoo_simulator\zoo_simulator\cmake-build-debug\CMakeFiles C:\Users\acer\Desktop\git\zoo_simulator\zoo_simulator\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\acer\Desktop\git\zoo_simulator\zoo_simulator\zoo_simulator\cmake-build-debug\CMakeFiles C:\Users\acer\Desktop\git\zoo_simulator\zoo_simulator\zoo_simulator\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\acer\Desktop\git\zoo_simulator\zoo_simulator\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\acer\Desktop\git\zoo_simulator\zoo_simulator\zoo_simulator\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -128,6 +128,30 @@ zoo_simulator/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\zoo_simulator.dir\build.make CMakeFiles/zoo_simulator.dir/build
 .PHONY : zoo_simulator/fast
 
+src/Accipitridos.obj: src/Accipitridos.cpp.obj
+.PHONY : src/Accipitridos.obj
+
+# target to build an object file
+src/Accipitridos.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\zoo_simulator.dir\build.make CMakeFiles/zoo_simulator.dir/src/Accipitridos.cpp.obj
+.PHONY : src/Accipitridos.cpp.obj
+
+src/Accipitridos.i: src/Accipitridos.cpp.i
+.PHONY : src/Accipitridos.i
+
+# target to preprocess a source file
+src/Accipitridos.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\zoo_simulator.dir\build.make CMakeFiles/zoo_simulator.dir/src/Accipitridos.cpp.i
+.PHONY : src/Accipitridos.cpp.i
+
+src/Accipitridos.s: src/Accipitridos.cpp.s
+.PHONY : src/Accipitridos.s
+
+# target to generate assembly for a file
+src/Accipitridos.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\zoo_simulator.dir\build.make CMakeFiles/zoo_simulator.dir/src/Accipitridos.cpp.s
+.PHONY : src/Accipitridos.cpp.s
+
 src/Animal.obj: src/Animal.cpp.obj
 .PHONY : src/Animal.obj
 
@@ -152,53 +176,173 @@ src/Animal.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\zoo_simulator.dir\build.make CMakeFiles/zoo_simulator.dir/src/Animal.cpp.s
 .PHONY : src/Animal.cpp.s
 
-src/Desert.obj: src/Desert.cpp.obj
-.PHONY : src/Desert.obj
+src/Bovidos.obj: src/Bovidos.cpp.obj
+.PHONY : src/Bovidos.obj
 
 # target to build an object file
-src/Desert.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\zoo_simulator.dir\build.make CMakeFiles/zoo_simulator.dir/src/Desert.cpp.obj
-.PHONY : src/Desert.cpp.obj
+src/Bovidos.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\zoo_simulator.dir\build.make CMakeFiles/zoo_simulator.dir/src/Bovidos.cpp.obj
+.PHONY : src/Bovidos.cpp.obj
 
-src/Desert.i: src/Desert.cpp.i
-.PHONY : src/Desert.i
+src/Bovidos.i: src/Bovidos.cpp.i
+.PHONY : src/Bovidos.i
 
 # target to preprocess a source file
-src/Desert.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\zoo_simulator.dir\build.make CMakeFiles/zoo_simulator.dir/src/Desert.cpp.i
-.PHONY : src/Desert.cpp.i
+src/Bovidos.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\zoo_simulator.dir\build.make CMakeFiles/zoo_simulator.dir/src/Bovidos.cpp.i
+.PHONY : src/Bovidos.cpp.i
 
-src/Desert.s: src/Desert.cpp.s
-.PHONY : src/Desert.s
+src/Bovidos.s: src/Bovidos.cpp.s
+.PHONY : src/Bovidos.s
 
 # target to generate assembly for a file
-src/Desert.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\zoo_simulator.dir\build.make CMakeFiles/zoo_simulator.dir/src/Desert.cpp.s
-.PHONY : src/Desert.cpp.s
+src/Bovidos.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\zoo_simulator.dir\build.make CMakeFiles/zoo_simulator.dir/src/Bovidos.cpp.s
+.PHONY : src/Bovidos.cpp.s
 
-src/Habitat.obj: src/Habitat.cpp.obj
-.PHONY : src/Habitat.obj
+src/Equidos.obj: src/Equidos.cpp.obj
+.PHONY : src/Equidos.obj
 
 # target to build an object file
-src/Habitat.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\zoo_simulator.dir\build.make CMakeFiles/zoo_simulator.dir/src/Habitat.cpp.obj
-.PHONY : src/Habitat.cpp.obj
+src/Equidos.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\zoo_simulator.dir\build.make CMakeFiles/zoo_simulator.dir/src/Equidos.cpp.obj
+.PHONY : src/Equidos.cpp.obj
 
-src/Habitat.i: src/Habitat.cpp.i
-.PHONY : src/Habitat.i
+src/Equidos.i: src/Equidos.cpp.i
+.PHONY : src/Equidos.i
 
 # target to preprocess a source file
-src/Habitat.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\zoo_simulator.dir\build.make CMakeFiles/zoo_simulator.dir/src/Habitat.cpp.i
-.PHONY : src/Habitat.cpp.i
+src/Equidos.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\zoo_simulator.dir\build.make CMakeFiles/zoo_simulator.dir/src/Equidos.cpp.i
+.PHONY : src/Equidos.cpp.i
 
-src/Habitat.s: src/Habitat.cpp.s
-.PHONY : src/Habitat.s
+src/Equidos.s: src/Equidos.cpp.s
+.PHONY : src/Equidos.s
 
 # target to generate assembly for a file
-src/Habitat.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\zoo_simulator.dir\build.make CMakeFiles/zoo_simulator.dir/src/Habitat.cpp.s
-.PHONY : src/Habitat.cpp.s
+src/Equidos.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\zoo_simulator.dir\build.make CMakeFiles/zoo_simulator.dir/src/Equidos.cpp.s
+.PHONY : src/Equidos.cpp.s
+
+src/Faisanidos.obj: src/Faisanidos.cpp.obj
+.PHONY : src/Faisanidos.obj
+
+# target to build an object file
+src/Faisanidos.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\zoo_simulator.dir\build.make CMakeFiles/zoo_simulator.dir/src/Faisanidos.cpp.obj
+.PHONY : src/Faisanidos.cpp.obj
+
+src/Faisanidos.i: src/Faisanidos.cpp.i
+.PHONY : src/Faisanidos.i
+
+# target to preprocess a source file
+src/Faisanidos.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\zoo_simulator.dir\build.make CMakeFiles/zoo_simulator.dir/src/Faisanidos.cpp.i
+.PHONY : src/Faisanidos.cpp.i
+
+src/Faisanidos.s: src/Faisanidos.cpp.s
+.PHONY : src/Faisanidos.s
+
+# target to generate assembly for a file
+src/Faisanidos.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\zoo_simulator.dir\build.make CMakeFiles/zoo_simulator.dir/src/Faisanidos.cpp.s
+.PHONY : src/Faisanidos.cpp.s
+
+src/Felinos.obj: src/Felinos.cpp.obj
+.PHONY : src/Felinos.obj
+
+# target to build an object file
+src/Felinos.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\zoo_simulator.dir\build.make CMakeFiles/zoo_simulator.dir/src/Felinos.cpp.obj
+.PHONY : src/Felinos.cpp.obj
+
+src/Felinos.i: src/Felinos.cpp.i
+.PHONY : src/Felinos.i
+
+# target to preprocess a source file
+src/Felinos.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\zoo_simulator.dir\build.make CMakeFiles/zoo_simulator.dir/src/Felinos.cpp.i
+.PHONY : src/Felinos.cpp.i
+
+src/Felinos.s: src/Felinos.cpp.s
+.PHONY : src/Felinos.s
+
+# target to generate assembly for a file
+src/Felinos.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\zoo_simulator.dir\build.make CMakeFiles/zoo_simulator.dir/src/Felinos.cpp.s
+.PHONY : src/Felinos.cpp.s
+
+src/MamiferosAcua.obj: src/MamiferosAcua.cpp.obj
+.PHONY : src/MamiferosAcua.obj
+
+# target to build an object file
+src/MamiferosAcua.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\zoo_simulator.dir\build.make CMakeFiles/zoo_simulator.dir/src/MamiferosAcua.cpp.obj
+.PHONY : src/MamiferosAcua.cpp.obj
+
+src/MamiferosAcua.i: src/MamiferosAcua.cpp.i
+.PHONY : src/MamiferosAcua.i
+
+# target to preprocess a source file
+src/MamiferosAcua.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\zoo_simulator.dir\build.make CMakeFiles/zoo_simulator.dir/src/MamiferosAcua.cpp.i
+.PHONY : src/MamiferosAcua.cpp.i
+
+src/MamiferosAcua.s: src/MamiferosAcua.cpp.s
+.PHONY : src/MamiferosAcua.s
+
+# target to generate assembly for a file
+src/MamiferosAcua.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\zoo_simulator.dir\build.make CMakeFiles/zoo_simulator.dir/src/MamiferosAcua.cpp.s
+.PHONY : src/MamiferosAcua.cpp.s
+
+src/MoluscosAcua.obj: src/MoluscosAcua.cpp.obj
+.PHONY : src/MoluscosAcua.obj
+
+# target to build an object file
+src/MoluscosAcua.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\zoo_simulator.dir\build.make CMakeFiles/zoo_simulator.dir/src/MoluscosAcua.cpp.obj
+.PHONY : src/MoluscosAcua.cpp.obj
+
+src/MoluscosAcua.i: src/MoluscosAcua.cpp.i
+.PHONY : src/MoluscosAcua.i
+
+# target to preprocess a source file
+src/MoluscosAcua.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\zoo_simulator.dir\build.make CMakeFiles/zoo_simulator.dir/src/MoluscosAcua.cpp.i
+.PHONY : src/MoluscosAcua.cpp.i
+
+src/MoluscosAcua.s: src/MoluscosAcua.cpp.s
+.PHONY : src/MoluscosAcua.s
+
+# target to generate assembly for a file
+src/MoluscosAcua.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\zoo_simulator.dir\build.make CMakeFiles/zoo_simulator.dir/src/MoluscosAcua.cpp.s
+.PHONY : src/MoluscosAcua.cpp.s
+
+src/Otaridos.obj: src/Otaridos.cpp.obj
+.PHONY : src/Otaridos.obj
+
+# target to build an object file
+src/Otaridos.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\zoo_simulator.dir\build.make CMakeFiles/zoo_simulator.dir/src/Otaridos.cpp.obj
+.PHONY : src/Otaridos.cpp.obj
+
+src/Otaridos.i: src/Otaridos.cpp.i
+.PHONY : src/Otaridos.i
+
+# target to preprocess a source file
+src/Otaridos.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\zoo_simulator.dir\build.make CMakeFiles/zoo_simulator.dir/src/Otaridos.cpp.i
+.PHONY : src/Otaridos.cpp.i
+
+src/Otaridos.s: src/Otaridos.cpp.s
+.PHONY : src/Otaridos.s
+
+# target to generate assembly for a file
+src/Otaridos.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\zoo_simulator.dir\build.make CMakeFiles/zoo_simulator.dir/src/Otaridos.cpp.s
+.PHONY : src/Otaridos.cpp.s
 
 src/Zoo.obj: src/Zoo.cpp.obj
 .PHONY : src/Zoo.obj
@@ -257,15 +401,33 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... zoo_simulator
+	@echo ... src/Accipitridos.obj
+	@echo ... src/Accipitridos.i
+	@echo ... src/Accipitridos.s
 	@echo ... src/Animal.obj
 	@echo ... src/Animal.i
 	@echo ... src/Animal.s
-	@echo ... src/Desert.obj
-	@echo ... src/Desert.i
-	@echo ... src/Desert.s
-	@echo ... src/Habitat.obj
-	@echo ... src/Habitat.i
-	@echo ... src/Habitat.s
+	@echo ... src/Bovidos.obj
+	@echo ... src/Bovidos.i
+	@echo ... src/Bovidos.s
+	@echo ... src/Equidos.obj
+	@echo ... src/Equidos.i
+	@echo ... src/Equidos.s
+	@echo ... src/Faisanidos.obj
+	@echo ... src/Faisanidos.i
+	@echo ... src/Faisanidos.s
+	@echo ... src/Felinos.obj
+	@echo ... src/Felinos.i
+	@echo ... src/Felinos.s
+	@echo ... src/MamiferosAcua.obj
+	@echo ... src/MamiferosAcua.i
+	@echo ... src/MamiferosAcua.s
+	@echo ... src/MoluscosAcua.obj
+	@echo ... src/MoluscosAcua.i
+	@echo ... src/MoluscosAcua.s
+	@echo ... src/Otaridos.obj
+	@echo ... src/Otaridos.i
+	@echo ... src/Otaridos.s
 	@echo ... src/Zoo.obj
 	@echo ... src/Zoo.i
 	@echo ... src/Zoo.s
